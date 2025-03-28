@@ -1,0 +1,13 @@
+{
+  "name": "custom-types",
+  "description": "My custom TS override definitions",
+  "type": "module",
+  "types": "./index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/exoRift/custom-types"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  }
+}
