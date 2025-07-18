@@ -44,3 +44,5 @@ declare global {
   type Writeable<T> = { -readonly [P in keyof T]: T[P] extends object ? Writeable<T[P]> : T[P] }
   type Compute<T> = { [K in keyof T]: T[K] extends object ? Compute<T[K]> : T[K] } & {}
 }
+
+export {}
